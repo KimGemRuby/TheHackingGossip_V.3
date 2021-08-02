@@ -8,7 +8,6 @@ class StudentController < ApplicationController
     end
 
     def contacts
-        @users = User.all
     end
 
     def welcome

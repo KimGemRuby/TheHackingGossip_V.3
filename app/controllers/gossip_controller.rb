@@ -7,4 +7,6 @@ class GossipController < ApplicationController
     @gossip = Gossip.find(params[:id])
     @date = @gossip.created_at.to_date
   end
+
+  
 end

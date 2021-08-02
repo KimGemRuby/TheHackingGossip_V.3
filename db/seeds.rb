@@ -18,7 +18,7 @@ end
 end
 
 50.times do 
-    gossip = Gossip.create!(title: Faker::Quote.matz, content: Faker::Lorem.paragraph(sentence_count:50), user_id: rand(1..20))
+    gossip = Gossip.create!(title: Faker::Lorem.sentence, content: Faker::Lorem.paragraph(sentence_count:300), user_id: rand(1..20))
 end
 
 10.times do 
