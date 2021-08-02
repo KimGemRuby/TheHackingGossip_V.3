@@ -1,5 +1,5 @@
 .xshadow {
-  box-shadow: 2px 2px 5px rgba(46, 46, 46, 0.767);
+  box-shadow: 0 2px 5px rgba(46, 46, 46, 0.767);
 }
 .text-grey {
   color:darkgrey !important;
@@ -24,6 +24,9 @@ button a:hover{
   width:100%;
 
 }
-button{
-  outline:none;
+
+.xaxa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

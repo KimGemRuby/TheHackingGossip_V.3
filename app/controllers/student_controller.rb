@@ -5,6 +5,7 @@ class StudentController < ApplicationController
 
     def show
         @user = User.find(params[:id])
+        @gossips = @user.gossips
     end
 
     def contacts
