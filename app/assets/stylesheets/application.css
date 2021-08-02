@@ -2,18 +2,28 @@
   box-shadow: 2px 2px 5px rgba(46, 46, 46, 0.767);
 }
 .text-grey {
-  color:darkgrey;
+  color:darkgrey !important;
 }
+
 body {
   color: #242424 !important;
   background-color: rgb(255, 249, 224) !important;
 }
-a {
+a,
+h2 a {
   color: #242424;
   text-decoration: none;
   
 }
-button a{
+button a,
+button a:hover{
   color:white;
   text-decoration: none;
+  display: block;
+  height: 100%;
+  width:100%;
+
+}
+button{
+  outline:none;
 }
