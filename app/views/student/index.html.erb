@@ -1,0 +1,10 @@
+<h1>Voici la team</h1>
+<% @users.each do |user| %>
+<div>
+<h2>
+  <a href="<%= student_path(user) %>"><%= user.last_name %><br>
+  <%= user.first_name %></a>
+</h2>
+<p><%= user.description %></p>
+</div>
+<% end %>
